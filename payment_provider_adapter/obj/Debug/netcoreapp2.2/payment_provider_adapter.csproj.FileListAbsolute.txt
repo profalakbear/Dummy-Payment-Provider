@@ -1,0 +1,9 @@
+C:\Users\alakb\source\repos\payment_provider_adapter\bin\Debug\netcoreapp2.2\payment_provider_adapter.deps.json
+C:\Users\alakb\source\repos\payment_provider_adapter\bin\Debug\netcoreapp2.2\payment_provider_adapter.dll
+C:\Users\alakb\source\repos\payment_provider_adapter\bin\Debug\netcoreapp2.2\payment_provider_adapter.pdb
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.csproj.AssemblyReference.cache
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.AssemblyInfoInputs.cache
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.AssemblyInfo.cs
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.csproj.CoreCompileInputs.cache
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.dll
+C:\Users\alakb\source\repos\payment_provider_adapter\obj\Debug\netcoreapp2.2\payment_provider_adapter.pdb

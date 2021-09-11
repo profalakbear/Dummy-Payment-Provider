@@ -1,0 +1,34 @@
+﻿@model payment_provider_adapter.CustomResponses.ConfirmPaymentResponse
+
+
+
+@if (Model.ConfirmContent.Status == "Approved")
+{
+
+    <h2>Your payment was successful</h2>
+    <img src="~/pics/success.png" alt="Girl in a jacket" width="100" height="100">
+
+    <div>
+        <h3><b>Transaction Id : </b>  @Model.ConfirmContent.TransactionId</h3>
+        <h3><b>Payment Status : </b>  <span style="color: green;">@Model.ConfirmContent.Status</span></h3>
+        <h3><b>Payment Amount : </b>  @Model.ConfirmContent.Amount</h3>
+        <h3><b>Currency : </b>  @Model.ConfirmContent.Currency</h3>
+        <h3><b>Order Id : </b>  @Model.ConfirmContent.OrderId</h3>
+        <h3><b>Last 4 digits : </b>  @Model.ConfirmContent.LastFourDigits</h3>
+    </div>
+
+}
+else
+{
+    <h2>Your payment was failed</h2>
+    <img src="~/pics/failed.jpg" alt="Girl in a jacket" width="100" height="100">
+
+    <div>
+        <h3><b>Transaction Id : </b>  @Model.ConfirmContent.TransactionId</h3>
+        <h3><b>Payment Status : </b>  <span style="color: red;">@Model.ConfirmContent.Status</span></h3>
+        <h3><b>Payment Amount : </b>  @Model.ConfirmContent.Amount</h3>
+        <h3><b>Currency : </b>  @Model.ConfirmContent.Currency</h3>
+        <h3><b>Order Id : </b>  @Model.ConfirmContent.OrderId</h3>
+        <h3><b>Last 4 digits : </b>  @Model.ConfirmContent.LastFourDigits</h3>
+    </div>
+}
